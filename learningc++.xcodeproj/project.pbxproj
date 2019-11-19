@@ -29,6 +29,9 @@
 		3AA3FFCB230D1F0400FDF7C8 /* learningMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3FFCA230D1F0400FDF7C8 /* learningMap.cpp */; };
 		3AA3FFCD230D24D300FDF7C8 /* learningMutimap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3FFCC230D24D300FDF7C8 /* learningMutimap.cpp */; };
 		3AA3FFCF230D27EE00FDF7C8 /* learningFuncObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3FFCE230D27EE00FDF7C8 /* learningFuncObject.cpp */; };
+		3AA3FFD9230F78A900FDF7C8 /* confirmVectorDoubleCapacity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3FFD8230F78A900FDF7C8 /* confirmVectorDoubleCapacity.cpp */; };
+		3AA3FFDB230F858400FDF7C8 /* confirmAccumulationAdd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3FFDA230F858400FDF7C8 /* confirmAccumulationAdd.cpp */; };
+		3AA3FFDD230F90B200FDF7C8 /* learningStlUnique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3FFDC230F90B200FDF7C8 /* learningStlUnique.cpp */; };
 		3AFC1DC4230406CA00780197 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1DC2230406CA00780197 /* Point.cpp */; };
 		3AFC1DC623040DE300780197 /* learningArrayPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1DC523040DE300780197 /* learningArrayPoint.cpp */; };
 		3AFC1DC823044D1300780197 /* learningPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1DC723044D1300780197 /* learningPointer.cpp */; };
@@ -74,6 +77,9 @@
 		3AA3FFCA230D1F0400FDF7C8 /* learningMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningMap.cpp; sourceTree = "<group>"; };
 		3AA3FFCC230D24D300FDF7C8 /* learningMutimap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningMutimap.cpp; sourceTree = "<group>"; };
 		3AA3FFCE230D27EE00FDF7C8 /* learningFuncObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningFuncObject.cpp; sourceTree = "<group>"; };
+		3AA3FFD8230F78A900FDF7C8 /* confirmVectorDoubleCapacity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = confirmVectorDoubleCapacity.cpp; sourceTree = "<group>"; };
+		3AA3FFDA230F858400FDF7C8 /* confirmAccumulationAdd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = confirmAccumulationAdd.cpp; sourceTree = "<group>"; };
+		3AA3FFDC230F90B200FDF7C8 /* learningStlUnique.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningStlUnique.cpp; sourceTree = "<group>"; };
 		3AFC1DC2230406CA00780197 /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
 		3AFC1DC3230406CA00780197 /* Point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
 		3AFC1DC523040DE300780197 /* learningArrayPoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningArrayPoint.cpp; sourceTree = "<group>"; };
@@ -143,6 +149,9 @@
 				3A07F204230BC3A300773740 /* learningQueue.cpp */,
 				3AA3FFCC230D24D300FDF7C8 /* learningMutimap.cpp */,
 				3AA3FFCE230D27EE00FDF7C8 /* learningFuncObject.cpp */,
+				3AA3FFD8230F78A900FDF7C8 /* confirmVectorDoubleCapacity.cpp */,
+				3AA3FFDA230F858400FDF7C8 /* confirmAccumulationAdd.cpp */,
+				3AA3FFDC230F90B200FDF7C8 /* learningStlUnique.cpp */,
 			);
 			path = "learningc++";
 			sourceTree = "<group>";
@@ -212,6 +221,8 @@
 				3AFC1DCC2305243000780197 /* learningVector.cpp in Sources */,
 				3AFC1DD023052B8C00780197 /* learningString.cpp in Sources */,
 				3A27E7A9230159A00068581E /* BankAccount.cpp in Sources */,
+				3AA3FFDB230F858400FDF7C8 /* confirmAccumulationAdd.cpp in Sources */,
+				3AA3FFD9230F78A900FDF7C8 /* confirmVectorDoubleCapacity.cpp in Sources */,
 				3A27E79E22F56F440068581E /* main.cpp in Sources */,
 				3AA3FFC9230CF4F800FDF7C8 /* learningSTL.cpp in Sources */,
 				3AFC1DCE2305283600780197 /* learningCopy.cpp in Sources */,
@@ -223,6 +234,7 @@
 				3AFC1DC823044D1300780197 /* learningPointer.cpp in Sources */,
 				3AA3FFCF230D27EE00FDF7C8 /* learningFuncObject.cpp in Sources */,
 				3AA3FFCD230D24D300FDF7C8 /* learningMutimap.cpp in Sources */,
+				3AA3FFDD230F90B200FDF7C8 /* learningStlUnique.cpp in Sources */,
 				3A27E7AF23028EC60068581E /* SavingAccount.cpp in Sources */,
 				3A58D5F4230934700033F424 /* JustTest.cpp in Sources */,
 				3AA3FFCB230D1F0400FDF7C8 /* learningMap.cpp in Sources */,

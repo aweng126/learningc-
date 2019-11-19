@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 //int main(){
@@ -27,6 +28,7 @@ using namespace std;
 //    cout<<"a.begin()\t "<<*a.begin()<<endl;
 //    cout<<"a.rend()\t"<<*a.rend()<<endl;
 //    cout<<"a.rend()-1\t"<<*(a.rend()-1)<<endl;
+//
 //    
-//    
+//    return 0;
 //}
