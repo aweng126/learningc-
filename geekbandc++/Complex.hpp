@@ -4,7 +4,7 @@
 //
 //  Created by 李庆文 on 2019/11/19.
 //  Copyright © 2019 李庆文. All rights reserved.
-//  侯捷老师的c++教程的第一部分。https://www.bilibili.com/video/av19038490
+//  侯捷老师的c++教程的第一部分，不带指针的类 complex 。https://www.bilibili.com/video/av19038490
 
 #ifndef Complex_hpp
 #define Complex_hpp
