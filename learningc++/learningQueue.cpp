@@ -10,9 +10,11 @@
 #include <queue>
 #include <iostream>
 using namespace std;
-
+//
 //int main(){
 //    queue<int> q ;
+////    queue<int> q2({1,2,3});
+////    cout<<"q2 size"<<q2.size()<<endl;
 //    q.push(3);
 //    cout<<"size\t"<<q.size()<<endl;
 //    cout<<"top\t"<<q.front()<<endl;
