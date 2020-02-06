@@ -1,37 +1,65 @@
-//
 //  learningArray.cpp
 //  learningc++
 //
-//  Created by 李庆文 on 2019/8/14.
+//  Created by 李庆文 on 2020/2/6
 //  Copyright © 2019 李庆文. All rights reserved.
-//
-
+//  c++ 11 新添加的数据类型。
+ 
 #include <stdio.h>
 #include <iostream>
+#include <array>
 using namespace std;
-
-// 将数组中每个元素都+1,在方法中修改数组的值，在主方法中值也发生更改了，传的是地址。
-void arrayAddOne(int a[], int length){
-    cout<<a<<endl;
-    for (int i =0;i<length;i++){
-        //a[i]=10;
-        cout<<++a[i]<<endl;
+template<class T>
+void printArray(string s,const T& marr){
+    cout<<s<<'\t';
+    for(auto a:marr){
+        cout<<a<<'\t';
     }
-    a[2]=100;
+    cout<<endl;
 }
 
-//int main(){
-//    int a[3]={1,2,3};
-//    for(int i =0;i<3;i++){
-//        cout<<a[i]<<endl;
-//    }
-//    
-//    cout<<"开始调用方法"<<endl;
-//    arrayAddOne(a,3);
-//    
-//    cout<<"信息更改之后"<<endl;
-//    for(int i=0; i<3; i++){
-//        cout<<a[i]<<endl;
-//    }
-//    return 0;
-//}
+int main(){
+    //声明
+    array<int,3> marr = {3,2,4};
+    array<int,2> marr1{1,2};
+    printArray("marr",marr);
+    printArray("marr1 ",marr1);
+    
+    // access 相关
+    cout<<"marr[0]: "<<marr[0]<<endl;
+    cout<<"marr.at(0): "<<marr.at(0)<<endl;
+    cout<<"marr.data(): "<<*marr.data()<<endl;
+    cout<<"marr.front(): "<<marr.front()<<endl;
+    cout<<"marr.back(): "<<marr.back()<<endl;
+    
+    //capacity 相关
+    cout<<"marr.size(): "<<marr.size()<<endl;
+    cout<<"marr.empty(): "<<marr.empty()<<endl;
+    cout<<"marr.max_size(): "<<marr.max_size()<<endl;
+    
+    //Operations
+    printArray("before sort", marr);
+    sort(marr.begin(),marr.end());
+    printArray("after sort", marr);
+    
+    marr.fill(5);
+    printArray("marr.fill(5)", marr);
+
+    return 0;
+}
+
+/* 运行结果
+ marr    3    2    4
+ marr1     1    2
+ marr[0]: 3
+ marr.at(0): 3
+ marr.data(): 3
+ marr.front(): 3
+ marr.back(): 4
+ marr.size(): 3
+ marr.empty(): 0
+ marr.max_size(): 3
+ before sort    3    2    4
+ after sort    2    3    4
+ marr.fill(5)    5    5    5
+ */

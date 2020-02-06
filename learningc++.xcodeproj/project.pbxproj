@@ -21,7 +21,6 @@
 		3A27E7AF23028EC60068581E /* SavingAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A27E7AD23028EC60068581E /* SavingAccount.cpp */; };
 		3A27E7B123028EEB0068581E /* savingAccountMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A27E7B023028EEB0068581E /* savingAccountMain.cpp */; };
 		3A27E7B42303FA3C0068581E /* learningArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A27E7B32303FA3C0068581E /* learningArray.cpp */; };
-		3A27E7B62303FD6D0068581E /* learningArray2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A27E7B52303FD6D0068581E /* learningArray2.cpp */; };
 		3A38880C2383F0F6009EADFB /* Complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A38880A2383F0F6009EADFB /* Complex.cpp */; };
 		3A412D8B2386A1760093A60A /* mstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A412D892386A1760093A60A /* mstring.cpp */; };
 		3A58D5F023055F850033F424 /* learningKindCompatibility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A58D5EF23055F850033F424 /* learningKindCompatibility.cpp */; };
@@ -72,7 +71,6 @@
 		3A27E7B023028EEB0068581E /* savingAccountMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = savingAccountMain.cpp; sourceTree = "<group>"; };
 		3A27E7B223028F6F0068581E /* savingAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = savingAccount.h; sourceTree = "<group>"; };
 		3A27E7B32303FA3C0068581E /* learningArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningArray.cpp; sourceTree = "<group>"; };
-		3A27E7B52303FD6D0068581E /* learningArray2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningArray2.cpp; sourceTree = "<group>"; };
 		3A38880A2383F0F6009EADFB /* Complex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Complex.cpp; path = "geekbandc++/Complex.cpp"; sourceTree = SOURCE_ROOT; };
 		3A38880B2383F0F6009EADFB /* Complex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Complex.hpp; path = "geekbandc++/Complex.hpp"; sourceTree = SOURCE_ROOT; };
 		3A412D892386A1760093A60A /* mstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mstring.cpp; path = "geekbandc++/mstring.cpp"; sourceTree = SOURCE_ROOT; };
@@ -136,7 +134,6 @@
 				3A27E7B023028EEB0068581E /* savingAccountMain.cpp */,
 				3A27E7B223028F6F0068581E /* savingAccount.h */,
 				3A27E7B32303FA3C0068581E /* learningArray.cpp */,
-				3A27E7B52303FD6D0068581E /* learningArray2.cpp */,
 				3AFC1DC2230406CA00780197 /* Point.cpp */,
 				3AFC1DCF23052B8C00780197 /* learningString.cpp */,
 				3AFC1DC3230406CA00780197 /* Point.hpp */,
@@ -256,7 +253,6 @@
 				3AA3FFCB230D1F0400FDF7C8 /* learningMap.cpp in Sources */,
 				3A58D5F023055F850033F424 /* learningKindCompatibility.cpp in Sources */,
 				3A07F1FF230AE6CF00773740 /* learningList.cpp in Sources */,
-				3A27E7B62303FD6D0068581E /* learningArray2.cpp in Sources */,
 				3A07F203230BBC0B00773740 /* learningStack.cpp in Sources */,
 				3A07F1FD230AD97F00773740 /* learningDeque.cpp in Sources */,
 			);
