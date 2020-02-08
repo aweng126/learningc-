@@ -13,6 +13,7 @@
 		3A07F203230BBC0B00773740 /* learningStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A07F202230BBC0B00773740 /* learningStack.cpp */; };
 		3A07F205230BC3A300773740 /* learningQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A07F204230BC3A300773740 /* learningQueue.cpp */; };
 		3A1C944A23EBFCFA0066CB5E /* learningForwardlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C944923EBFCFA0066CB5E /* learningForwardlist.cpp */; };
+		3A1C944C23EE970F0066CB5E /* learningPriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1C944B23EE970F0066CB5E /* learningPriorityQueue.cpp */; };
 		3A27E79E22F56F440068581E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A27E79D22F56F440068581E /* main.cpp */; };
 		3A27E7A523014B4F0068581E /* learnStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A27E7A423014B4F0068581E /* learnStruct.cpp */; };
 		3A27E7A723014F830068581E /* learnUnion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A27E7A623014F830068581E /* learnUnion.cpp */; };
@@ -61,6 +62,7 @@
 		3A07F202230BBC0B00773740 /* learningStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningStack.cpp; sourceTree = "<group>"; };
 		3A07F204230BC3A300773740 /* learningQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningQueue.cpp; sourceTree = "<group>"; };
 		3A1C944923EBFCFA0066CB5E /* learningForwardlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningForwardlist.cpp; sourceTree = "<group>"; };
+		3A1C944B23EE970F0066CB5E /* learningPriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningPriorityQueue.cpp; sourceTree = "<group>"; };
 		3A27E79A22F56F440068581E /* learningc++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "learningc++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A27E79D22F56F440068581E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3A27E7A423014B4F0068581E /* learnStruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learnStruct.cpp; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				3A412D892386A1760093A60A /* mstring.cpp */,
 				3A412D8A2386A1760093A60A /* mstring.hpp */,
 				3A1C944923EBFCFA0066CB5E /* learningForwardlist.cpp */,
+				3A1C944B23EE970F0066CB5E /* learningPriorityQueue.cpp */,
 			);
 			path = "learningc++";
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				3A27E7B123028EEB0068581E /* savingAccountMain.cpp in Sources */,
 				3AFC1DC623040DE300780197 /* learningArrayPoint.cpp in Sources */,
 				3A27E7AC230185810068581E /* learningDataControl.cpp in Sources */,
+				3A1C944C23EE970F0066CB5E /* learningPriorityQueue.cpp in Sources */,
 				3A27E7A523014B4F0068581E /* learnStruct.cpp in Sources */,
 				3A58D5F2230575960033F424 /* learningDestructor.cpp in Sources */,
 				3AFC1DC823044D1300780197 /* learningPointer.cpp in Sources */,
