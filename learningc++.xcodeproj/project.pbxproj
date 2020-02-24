@@ -27,6 +27,7 @@
 		3A58D5F023055F850033F424 /* learningKindCompatibility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A58D5EF23055F850033F424 /* learningKindCompatibility.cpp */; };
 		3A58D5F2230575960033F424 /* learningDestructor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A58D5F1230575960033F424 /* learningDestructor.cpp */; };
 		3A58D5F4230934700033F424 /* JustTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A58D5F3230934700033F424 /* JustTest.cpp */; };
+		3A9318AE2403774800B17298 /* learningStuct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A9318AD2403774800B17298 /* learningStuct.cpp */; };
 		3AA3FFC5230BE50100FDF7C8 /* learningSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3FFC4230BE50100FDF7C8 /* learningSet.cpp */; };
 		3AA3FFC9230CF4F800FDF7C8 /* learningSTL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3FFC8230CF4F800FDF7C8 /* learningSTL.cpp */; };
 		3AA3FFCB230D1F0400FDF7C8 /* learningMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3FFCA230D1F0400FDF7C8 /* learningMap.cpp */; };
@@ -80,6 +81,7 @@
 		3A58D5EF23055F850033F424 /* learningKindCompatibility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningKindCompatibility.cpp; sourceTree = "<group>"; };
 		3A58D5F1230575960033F424 /* learningDestructor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningDestructor.cpp; sourceTree = "<group>"; };
 		3A58D5F3230934700033F424 /* JustTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JustTest.cpp; sourceTree = "<group>"; };
+		3A9318AD2403774800B17298 /* learningStuct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningStuct.cpp; sourceTree = "<group>"; };
 		3AA3FFC4230BE50100FDF7C8 /* learningSet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningSet.cpp; sourceTree = "<group>"; };
 		3AA3FFC8230CF4F800FDF7C8 /* learningSTL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningSTL.cpp; sourceTree = "<group>"; };
 		3AA3FFCA230D1F0400FDF7C8 /* learningMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learningMap.cpp; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				3A412D8A2386A1760093A60A /* mstring.hpp */,
 				3A1C944923EBFCFA0066CB5E /* learningForwardlist.cpp */,
 				3A1C944B23EE970F0066CB5E /* learningPriorityQueue.cpp */,
+				3A9318AD2403774800B17298 /* learningStuct.cpp */,
 			);
 			path = "learningc++";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				3A58D5F4230934700033F424 /* JustTest.cpp in Sources */,
 				3AA3FFCB230D1F0400FDF7C8 /* learningMap.cpp in Sources */,
 				3A58D5F023055F850033F424 /* learningKindCompatibility.cpp in Sources */,
+				3A9318AE2403774800B17298 /* learningStuct.cpp in Sources */,
 				3A07F1FF230AE6CF00773740 /* learningList.cpp in Sources */,
 				3A07F203230BBC0B00773740 /* learningStack.cpp in Sources */,
 				3A07F1FD230AD97F00773740 /* learningDeque.cpp in Sources */,
