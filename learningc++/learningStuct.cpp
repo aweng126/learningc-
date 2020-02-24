@@ -39,8 +39,8 @@ namespace test3{
         int x;
         int y;
     }p;
-    // 等价于如下方式
     /**
+     等价于如下方式
      struct Point{
         int x;
         int y;
@@ -54,7 +54,7 @@ namespace test3{
 }
 
 namespace test4{
-// 如果有typedef来将结构体直接定义一个别名。
+// 如果有typedef来将结构体直接定义一个别名p,以后再声明结构体对象的时候就和声明类对象一样啦。
     typedef struct Point{
         int x;
         int y;
